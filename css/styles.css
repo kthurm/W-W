@@ -1,0 +1,109 @@
+body{background-color: #000;}
+.bg-dark {background-color: #000 !important;}
+
+h1, h2, h3, h4{color:#fff;
+font-family: 'Alegreya Sans', sans-serif;}
+
+h1{font-weight: 900;}
+
+
+.logo { color:rgba(240, 240, 240, .5);
+border:1px solid #ccc;
+padding:12px;
+font-size:.7rem;
+text-transform: uppercase;
+letter-spacing: 1px;
+font-family: 'KoHo', sans-serif;
+}
+
+header{ background: url(../img/bgDesk.png) no-repeat;
+		background-size: cover;
+		position: relative;
+		min-height: 400px;}
+
+header::before {
+    content:"";
+    display: block;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background: url(../img/bg.png) no-repeat;
+	background-size: cover;
+	background-color: rgba(0, 0, 0, .5);
+}
+.top-text{margin-top:60px;}
+
+.titleText{ 
+	font-size:9rem;
+    letter-spacing: -12px;}
+
+.top-text h2{text-transform: uppercase;
+	font-weight: 500;
+	font-size:2rem;
+	letter-spacing: 1px;
+	margin-top:60px;
+}
+.ace::before {
+    content:"";
+    display: block;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background: url(knife.png) no-repeat;
+}  
+
+article{background-color: #000;}
+
+.blog{background: rgba(240, 240, 240, .5)}
+/*animation*/
+.text-flicker-in-glow {
+	-webkit-animation: text-flicker-in-glow 4s linear both;
+	        animation: text-flicker-in-glow 4s linear both;
+}
+
+.text-flicker-in-glow2 {
+	-webkit-animation: text-flicker-in-glow 6s linear both;
+	        animation: text-flicker-in-glow 6s linear both;
+}
+
+.text-flicker-in-glow3 {
+	-webkit-animation: text-flicker-in-glow 10s linear both;
+	        animation: text-flicker-in-glow 10s linear both;
+}
+
+
+.bounce-in-top {
+	-webkit-animation: bounce-in-top .8s both;
+	        animation: bounce-in-top .8s both;
+	        animation-delay: 9s;
+}
+
+.text-focus-in {
+	-webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	        animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	         animation-delay: 8s;
+}
+
+.fade-in {
+	-webkit-animation: fade-in 10.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in 10.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation-delay: 1s;
+}
+
+.text-focus-in {
+	-webkit-animation: text-focus-in 5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	        animation: text-focus-in 5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	        animation-delay: 1s;
+}
+
+ 
+.swingimage{
+    -webkit-transform-origin: 50% 0; /* for Safari and older Chrome */
+    transform-origin: 50% 0;
+    -webkit-animation: swinging 3.5s ease-in-out forwards infinite;
+    animation: swinging 3.5s ease-in-out forwards infinite;
+    animation-delay: 7s;
+}
+
